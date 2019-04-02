@@ -46,6 +46,7 @@ class Form extends React.Component {
       <button
         id="FormButton"
         style={{
+          opacity: '0.85',
           margin: '20px auto',
           height: 80,
           width: 100,

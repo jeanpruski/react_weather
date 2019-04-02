@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Titles from './components/Titles';
 import Form from './components/Form';
+import { relative } from 'path';
 
 const API_KEY = "2755cd37ffa3b418dc1c9915a415cf7c";
 
@@ -89,32 +90,43 @@ class App extends Component {
 
   render() {
     return (
-      <div 
-        id="backGroundImage"
-      >
-      
-        <div
-          id="backGround"
+      <div>
+        
+        <div 
+          id="backGroundImage"
           style={{
-            width: 350,
-            margin: '0px auto',
-          }}>
-          <Titles 
-            temperature={this.state.temperature}
-            city={this.state.city}
-            country={this.state.country}
-            humidity={this.state.humidity}
-            description={this.state.description}
-            descri={this.state.descri}
-            error={this.state.error}
-            display={this.state.testAffichage} 
-          />
+            opacity: '0.8',
+          }}
+        >
+        
+          <div
+            id="backGround"
+            style={{
+              width: 350,
+              margin: '0px auto',
+            }}>
+            <Titles 
+              temperature={this.state.temperature}
+              city={this.state.city}
+              country={this.state.country}
+              humidity={this.state.humidity}
+              description={this.state.description}
+              descri={this.state.descri}
+              error={this.state.error}
+              display={this.state.testAffichage} 
+            />
 
-          <Form
-            getWeather={this.getWeather}
-          />
+            <Form
+              getWeather={this.getWeather}
+            />
 
+            {/* Cloud moves */}
+            <div id="bgCloud"></div>
+            <div id="bgCloud2"></div>
+
+          </div>
         </div>
+
       </div>
     );
   }
