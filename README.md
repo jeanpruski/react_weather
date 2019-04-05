@@ -6,9 +6,7 @@
 - Coucou 2
 - YOOOOOOO
 
-...
-`Coucou`
-...
+`console.log('coucou')`
 
 [lien](http://i.giphy.com/l46Cs36c9HrHMExoc.gif)
 
