@@ -5,7 +5,7 @@
 Cette dernière nous renseigne sur :
 
 - La Température extérieure.
-- le Pourcentage d'humidité actuel
+- Le Pourcentage d'humidité actuel
 - La Qualité du temps grâce à un repère visuel.
 ```
 
