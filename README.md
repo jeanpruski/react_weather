@@ -1,6 +1,6 @@
 # Weather_react
 
-**Weather_react** est une application react utilisant l'API OpenWeatherMap.
+**Weather_react** est une application react utilisant l'[API OpenWeatherMap](https://openweathermap.org/).
 ```
 Cette dernière nous renseigne sur :
 
