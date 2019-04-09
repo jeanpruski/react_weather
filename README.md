@@ -2,8 +2,6 @@
 
 **Cloud Weather** - *(Weather_react)* est une application react utilisant l'[API OpenWeatherMap](https://openweathermap.org/).
 
-*Current Version*
-
 ![alt](https://github.com/jeanpruski/jeanpruski.github.io/blob/master/gif/weather.gif?raw=true)
 
 ```
