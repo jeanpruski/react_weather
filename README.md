@@ -12,7 +12,3 @@ Cette dernière nous renseigne sur :
 ► La Qualité du temps grâce à un repère visuel.
 ``` 
 
-
-. 
-
-
